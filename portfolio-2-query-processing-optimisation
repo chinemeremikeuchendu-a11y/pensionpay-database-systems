@@ -1,1 +1,22 @@
+# Portfolio 2: Query Processing and Optimisation
 
+## Project Overview
+
+This portfolio focuses on SQL query processing, execution and optimisation using PostgreSQL 18.
+
+The project uses the PensionPay Fintech Pension Contribution Management System developed in Portfolio 1.
+
+## Objectives
+- Develop and execute SQL queries.
+- Analyse pension contribution records.
+- Examine query execution plans.
+- Apply indexing techniques.
+- Evaluate query performance.
+
+## Tools
+- PostgreSQL 18
+- pgAdmin 4
+- GitHub
+
+## Project Status
+Work in progress.
