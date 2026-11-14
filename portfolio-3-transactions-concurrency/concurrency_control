@@ -1,0 +1,20 @@
+BEGIN;
+
+SELECT *
+FROM pension.transaction_lab
+WHERE transaction_reference = 'PEN-TRX-001'
+FOR UPDATE;
+
+UPDATE pension.transaction_lab
+SET transaction_status = 'REVERSED'
+WHERE transaction_reference = 'PEN-TRX-001';
+
+COMMIT;
+
+
+SELECT
+    transaction_reference,
+    amount,
+    transaction_status
+FROM pension.transaction_lab
+WHERE transaction_reference = 'PEN-TRX-001';
